@@ -1,0 +1,104 @@
+html {
+    background-color: black;
+    background-image: url("../img/disruption_logistics_i2.png");
+    background-repeat: repeat-x;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.65)));
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.65) 100%);
+}
+
+.disruption-head {
+    height: 120px;
+    background-image: url("../img/header-bg.png");
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: contain;
+    min-width: 1000px;
+}
+
+.disruption-logo {
+    height: 80px;
+    width: 338px;
+    background: url("../img/header-logo.png") no-repeat center;
+    background-size: contain;
+    margin: 20px 20px 20px 0;
+    float:left;
+}
+
+.disruption-logged {
+    float: right;
+    margin: 50px 20px 50px 50px;
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.disruption-logged span {
+    color: #960e0d;
+}
+
+.info-panel {
+    background-color: black;
+    margin: 40px 20px 20px;
+    padding: 20px;
+    font-size: x-large;
+    color: whitesmoke;
+}
+
+.info-panel h1 {
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.info-panel .result-block {
+    background-color: #272727;
+    border-radius: 1px;
+    border: solid black 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-panel .result-block .result-block-title {
+    color: #950f0e;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.info-panel .result-block .result-block-data {
+    color: whitesmoke;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.info-panel .big-checkbox {
+    width: 30px;
+    height: 30px;
+}
+
+.stockbar-empty {
+    height: 12px;
+    width: 100%;
+    box-shadow: inset 0px 0px 0px 1px whitesmoke;
+    margin-top: 10px;
+}
+
+.stockbar-empty .stockbar-full {
+    background-image: url("../img/progressbar_full.png");
+    background-repeat: repeat-x;
+    height: 12px;
+    width: 0;
+}
+
+.footer {
+    color: #222222;
+    font-size: small;
+    text-align: center;
+}
